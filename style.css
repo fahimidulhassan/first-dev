@@ -3,8 +3,9 @@ body{
 }
 .border-site{
     font-size: 40px;
-    border-left: 7px solid;
+    border-left: 7px solid rgb(124, 230, 115);
     border-image-slice: 1;
+    border-radius: 3.5px;
 }
 .color-blue{
     color: rgb(89, 89, 245);
@@ -38,6 +39,9 @@ section{
 }
 .middle{
     display: flex;
+    font-size: 20px;
+    padding: 50px;
+    margin: 10px;
 }
 .middle img{
     width: 50%;
@@ -70,9 +74,19 @@ section{
     padding: 30px;
     margin-top: 90px;
 }
+.dev{
+    margin: auto;
+    background-image: url(shape-1.png);
+    background-repeat: no-repeat;
+}
 .equale{
     margin: auto;
     background-image: url(shape-1.png);
+    background-repeat: no-repeat;
+    
+}
+.ice{
+    margin: auto;
 }
 .last-line{
     font-family: 'Poppins', sans-serif;
